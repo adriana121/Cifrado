@@ -3,9 +3,9 @@ function screen(){
   document.getElementById("root2").style.display = "block";
 }
 
-let action = document.getElementById('result1');
-action.addEventListener('click', screennext);
-function screennext(){
+let action = document.getElementById('createCode');
+action.addEventListener('click', screenNext);
+function screenNext(){
   document.getElementById("root2").style.display = "none";
   document.getElementById("root3").style.display = "block";
 }
@@ -25,7 +25,7 @@ function encode (){
   let codename = name.charCodeAt(i);
   if(codename >= 65 && codename <=90){
   newName += String.fromCharCode((codename - 65 + offset)%26 +65);
-  document.getElementById('result').value = newName;
+  document.getElementById('promotionCode').value = newName;
      }
     }
   }

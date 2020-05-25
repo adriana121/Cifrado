@@ -6,7 +6,7 @@ p {
     font-size: 30px;
 }
 
-  #bttn {		
+  #nextView {		
       text-align: center;		
      background-color: #FFFFFF ;		
      border-bottom:#707070;		
@@ -15,12 +15,12 @@ p {
      height: 50px;	
      width: 150px;
  }	
- #bttn:hover{
+ #nextView:hover{
      background-color: aqua;
      color: white;
      scale: (1.2);
  }
- #result1		
+ #createCode	
  {	
      position: absolute;
      top: 640px;
@@ -81,12 +81,12 @@ p {
     height: 20px;
     width: 170px;
 }
-#result {
+#codeProm {
     border-radius: 5px;
     height: 20px;
     width: 170px;
 }
-#user{
+#decipherCode{
     position: absolute;
     left: 46%;
     border-radius: 20px;
@@ -94,11 +94,11 @@ p {
      height: 40px;	
     width: 100px;
 }
-#user:hover{
+#decipherCode:hover{
     background-color: #FFFFFF;
     color: #D17595;
 }
-#datos {
+#userData {
     font-size: 20px;
 }
 #dato {
@@ -110,7 +110,7 @@ p {
     height: 15px;
     width: 30px;
 }
-#pig{
+#Imgpig{
     width: 300px;
     height: 400px;
 }
