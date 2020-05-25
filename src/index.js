@@ -32,7 +32,6 @@ function encode (){
   
    function decode(){
      let codeprom = document.getElementById('code').value;
-     console.log(codeprom);
      let offset = document.getElementById('Age').value;
      let codedecode = '';
      for(let i = 0; i < codeprom.length; i++){
