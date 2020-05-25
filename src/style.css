@@ -115,6 +115,8 @@ p {
     height: 400px;
 }
 #code{
+    position: absolute;
+    left: 38%;
     width: 300px;
     height: 30px;
     color: #D17595;
@@ -122,6 +124,9 @@ p {
     border-radius: 20px;
 }
 #decode{
+    position: absolute;
+    top: 150px;
+    left: 43%;
     background-color: #D17595;
     color: #FFFFFF;
     border-radius: 20px;
@@ -133,14 +138,21 @@ p {
     color: #D17595;
 }
 #nameUser{
+    position: absolute;
+    top: 189px;
+    left: 38%;
     width: 300px;
     height: 30px;
     border-radius: 20px;
     color: #D17595;
 }
 #AgeUser{
+position: absolute;
+top: 290px;
+left: 43%;
 width: 150px;
 height: 20px;
-border-radius: white;
-color:#D17595;
+border-radius:20px;
+color:#080808;
+background-color: rgb(248, 242, 244);
 }
