@@ -15,8 +15,18 @@ p {
      height: 50px;	
      width: 150px;
  }	
+ #bttn:hover{
+     background-color: aqua;
+     color: white;
+     scale: (1.2);
+ }
  #result1		
- {		
+ {	
+     position: absolute;
+     top: 640px;
+     left: 46%;
+     width: 100px;
+     height: 50px;	
      text-decoration: black;		
      text-align: center;		
      border-radius: 50px;		
@@ -53,13 +63,18 @@ p {
     height: 270px;
 }
 #Age {
+    position: absolute;
+    top: 590px;
+    left: 47%;
     height: 20px;
     width: 50px;
     
 }
 #name {
+    position: absolute;
+    top: 560px;
+    left: 43%;
     background-color: #FFFFFF;
-   
     border-radius: 9px;
     text-decoration: #000000;
     text-decoration-color: black;
@@ -72,8 +87,16 @@ p {
     width: 170px;
 }
 #user{
+    position: absolute;
+    left: 46%;
+    border-radius: 20px;
+    background: #D17595;
      height: 40px;	
     width: 100px;
+}
+#user:hover{
+    background-color: #FFFFFF;
+    color: #D17595;
 }
 #datos {
     font-size: 20px;
@@ -86,4 +109,38 @@ p {
 #AgeUser{
     height: 15px;
     width: 30px;
+}
+#pig{
+    width: 300px;
+    height: 400px;
+}
+#code{
+    width: 300px;
+    height: 30px;
+    color: #D17595;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+#decode{
+    background-color: #D17595;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 150px;
+    height: 25px;
+}
+#decode:hover{
+    background-color: white;
+    color: #D17595;
+}
+#nameUser{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    color: #D17595;
+}
+#AgeUser{
+width: 150px;
+height: 20px;
+border-radius: white;
+color:#D17595;
 }

@@ -17,7 +17,7 @@ function next(){
 
 function encode (){
   let string = document.getElementById('name').value;
-  let offset = document.getElementById('Age').value;
+  offset = document.getElementById('Age').value;
   let name = string.toUpperCase();
   let newName = '';
   offset = offset %26;
@@ -35,7 +35,6 @@ function encode (){
      console.log(codeprom);
      let offset = document.getElementById('Age').value;
      let codedecode = '';
-     offset = offset %26;
      for(let i = 0; i < codeprom.length; i++){
        let code = codeprom.charCodeAt(i);
        if(code >= 65 && code <= 90){
